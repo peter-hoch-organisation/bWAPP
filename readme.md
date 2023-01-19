@@ -1,7 +1,10 @@
 # usage with docker container
 
 # start bWAPP in container
+
+```bash
 ./start.sh  
+```
 
 ## init bWAPP
 
@@ -14,7 +17,8 @@
 
 ## start / stop the container
 
+
 ```bash
+docker start bwapp
 docker stop bwapp
-docket stop bwapp
 ```
